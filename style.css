@@ -1,0 +1,103 @@
+body,h1,h2,p,ul,o,li{
+    margin:0;
+    padding: 0;
+    
+}
+body{
+     font-family:Arial, Helvetica, sans-serif;
+     line height: 1.6;
+}
+header{
+    background-color: orange;
+    color: black;
+    text-align: center;
+    padding: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    
+    
+    
+}
+.logo img{
+    height: 100px;
+    border-radius: 2pc;
+
+  
+}
+.header-content{
+    text-align: left;
+}
+nav{
+    background-color: orange;
+    
+  
+    
+}
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+}
+.menu li{
+    margin:0 1rem;
+    position: relative;
+  
+}
+.menu a{
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.menu a:hover{
+    color: orangered;
+}
+.submenu-content{
+    display: none;
+    position: absolute;
+    background-color: orange;
+    z-index: 1;
+}
+.submenu:hover .submenu-content{
+    display: block;
+}
+main{
+    padding: 2rem;
+    text-align: center;
+   
+
+}
+main h2,h3{
+    text-align: left;
+}
+main h1{
+    text-align: center;
+}
+main ul{
+    list-style: none;
+}
+
+footer{
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+    
+  
+
+}
+main p{
+    text-align: left;
+}
+
+
+
+
+    
+
+
+
+
+
+
+
